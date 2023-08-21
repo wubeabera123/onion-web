@@ -2,9 +2,9 @@ import logo from "../Images/logo.png"
 
 const Navbar = () => {
     return (  
-        <div className="d-flex" style={{alignItems: "center"}}>
-            <div className="d-flex mt-3" style={{marginLeft: "3rem"}}>
-                <img src={logo} style={{width:"1.8rem",height: "1.8rem",marginTop: "0.3rem",marginRight: "0.5rem"}} alt=""/>
+        <div className="naba d-flex" style={{alignItems: "center"}}>
+            <div className="logo d-flex mt-3" style={{marginLeft: "3rem"}}>
+                <img src={logo} className="onionlogo" style={{width:"1.8rem",height: "1.8rem",marginTop: "0.3rem",marginRight: "0.5rem"}} alt=""/>
                 <p style={{fontWeight: "bold",fontSize: "1.5rem"}}>OnionStudio</p>
             </div>
                <nav className="navbar navbar-expand-lg" style={{marginLeft: "8rem"}}>
@@ -13,25 +13,26 @@ const Navbar = () => {
                  </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav">
-                     <li className="nav-item active" style={{marginRight: "2rem"}}>
-                       <a className="nav-link" href="#" style={{color:"black",fontWeight: "bold"}}>About</a>
+                    
+                     <li className="nav-item active" style={{marginRight: "1.4rem"}}>
+                       <a className="nav-link" href="#" style={{color:"#444444",fontWeight: "bold"}}>About</a>
                      </li>
-                     <li className="nav-item" style={{marginRight: "2rem"}}>
-                       <a className="nav-link" href="#">Services</a>
+                     <li className="nav-item" style={{marginRight: "1.4rem"}}>
+                       <a className="nav-link" href="#" style={{color:"#444444",fontWeight: "bold"}}>Services</a>
                      </li>
-                     <li className="nav-item" style={{marginRight: "2rem"}}>
-                       <a className="nav-link" href="#">Case Studies</a>
+                     <li className="nav-item" style={{marginRight: "1.4rem"}}>
+                       <a className="nav-link" href="#" style={{color:"#444444",fontWeight: "bold"}}>Case Studies</a>
                      </li>
-                     <li className="nav-item" style={{marginRight: "2rem"}}>
-                       <a className="nav-link" href="#">Careers</a>
+                     <li className="nav-item" style={{marginRight: "1.4rem"}}>
+                       <a className="nav-link" href="#" style={{color:"#444444",fontWeight: "bold"}}>Careers</a>
                      </li>
                      <li className="nav-item">
-                       <a className="nav-link" href="#">Contact</a>
+                       <a className="nav-link" href="#" style={{color:"#444444",fontWeight: "bold"}}>Contact</a>
                      </li>
                    </ul>
                  </div>
              </nav>
-          <button className="btn ms-auto" style={{marginRight: "4rem",backgroundColor: "#6E368C",color: "white",width: "8.4rem",height: "2.4rem",fontSize: "0.8rem"}}>Get In Touch</button>
+          <button className="btn ms-auto" style={{marginRight: "4rem",backgroundColor: "#6E368C",color: "white",width: "8rem",height: "2.4rem",fontSize: "0.8rem"}}>Get In Touch</button>
         </div>
     );
 }

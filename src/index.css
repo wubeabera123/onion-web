@@ -1,8 +1,6 @@
 *{
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  
 }
 
 body {
@@ -13,4 +11,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media screen and (max-width: 768px){
+     .logo{
+       margin-right: -8rem;
+     }
+     .onionlogo{
+      margin-left: -2rem;
+     }
+     .naba{
+      gap: 0.2rem;
+     }
+     .btn{
+      position: fixed;
+      left:16.5rem;
+     }
+}    
 
