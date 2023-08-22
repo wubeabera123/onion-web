@@ -7,6 +7,7 @@ const Navbar = () => {
                 <img src={logo} className="onionlogo" style={{width:"1.8rem",height: "1.8rem",marginTop: "0.3rem",marginRight: "0.5rem"}} alt=""/>
                 <p style={{fontWeight: "bold",fontSize: "1.5rem"}}>OnionStudio</p>
             </div>
+            <div>
                <nav className="navbar navbar-expand-lg" style={{marginLeft: "8rem"}}>
                  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                    <span className="navbar-toggler-icon"></span>
@@ -32,6 +33,7 @@ const Navbar = () => {
                    </ul>
                  </div>
              </nav>
+            </div> 
           <button className="btn ms-auto" style={{marginRight: "4rem",backgroundColor: "#6E368C",color: "white",width: "8rem",height: "2.4rem",fontSize: "0.8rem"}}>Get In Touch</button>
         </div>
     );
