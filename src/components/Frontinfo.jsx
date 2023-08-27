@@ -2,19 +2,26 @@ import male from "../Images/male.jpg";
 
 const Frontinfo = () => {
     return (  
-      <div className="row mt-5">
-         <div className="col" style={{marginLeft: "5rem",marginTop: "6rem"}}>
-            <h1 style={{color: "#201f2f",fontWeight: "650",fontSize: "3.5rem",whiteSpace: "nowrap"}}>We Build Web Projects <br/>that Drives Sales.</h1>
+      <div className="section">
+         <div>
+           <div className="text">
+            <p style={{color: "#201f2f",fontWeight: "650",fontSize: "3.5rem",lineHeight: "5rem",overflowWrap: "break-word"}}>We Build Web Projects <br/>that Drives Sales.</p>
             <p style={{color: "#201f2f",fontWeight: "500",fontSize: "1.2rem",marginTop: "1rem",lineHeight: "2rem"}}>Product development from the scratch, gathering a <br/> dedicated team, or staff augumentation -- we can <br/>pick it up right where you left off.</p>
-            <div className="row">
-              <button className=" btn" style={{marginRight: "1rem",backgroundColor: "#6E368C",color: "white",width: "8rem",height: "2.4rem",fontSize: "0.8rem"}}>Get In Touch</button>
-              <button className="btn" style={{backgroundColor: "white",color: "#222222",width: "8rem",height: "2.4rem",fontSize: "0.8rem",borderColor: "black", fontWeight: "500", textShadow: "6 4 8px rgba(0.4, 0.6, 0.2, 0.2)"}}>Check Our Cases</button>
+           </div> 
+            <div className="btns">
+            <button className="blue-link" style={{backgroundColor: "#6E368C",color: "#f5f5f5",width: "8.5rem",height: "2.7rem",fontWeight: "600",fontSize: "0.8rem",marginRight: "1rem",borderStyle: "none",borderRadius: "3px"}}>Get In Touch</button>
+            <button className="whit-link" style={{backgroundColor: "#f5f5f5",color: "#444444",width: "10rem",height: "2.7rem",fontWeight: "700",fontSize: "0.8rem",borderRadius: "3px"}}>Check Our Cases</button>
             </div>
+          </div>
+         <div>
+              <div class="container">
+                 <div class="circle-section">
+                    <div class="circle"></div>
+                 </div>
+               </div>
+           <img className = "img_deg" src={male}/>
          </div>
-         <div className="col" style={{marginLeft: "12rem"}}>
-           <img src={male} style={{width: "20rem"}} />
-         </div>
-      </div>
+     </div> 
     );
 }
  

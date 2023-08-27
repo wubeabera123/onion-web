@@ -38,8 +38,8 @@ const Navbar = () => {
                  </li>
                </ul>
             </div>
-            <button className="btn" style={{backgroundColor: "#6E368C",color: "white",width: "8.5rem",height: "2.4rem",fontSize: "0.8rem",marginRight: "4rem"}}>Get In Touch</button>
          </nav>
+         <button className="btn" style={{backgroundColor: "#6E368C",color: "#f5f5f5",width: "11rem",height: "2.8rem",fontSize: "1rem",marginRight: "4rem"}}>Get In Touch</button>
      </header>  
     );
 }

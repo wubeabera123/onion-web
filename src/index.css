@@ -6,7 +6,7 @@
 }
 
 body {
-   height: 100vh;
+   
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -32,17 +32,17 @@ li{
 }
 header{
   position: relative;
-  padding: 0.2rem;
+  padding: 0rem;
+  display: flex;
 }
 .navbar{
-  width: 100%;
   height: 70px;
-  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 1rem;
+  margin-left: 5%;
 }
 
 .navbar-toggler{
@@ -51,33 +51,61 @@ header{
   margin-left: auto;
 
 }
-.navbar .btn{
-  transition: scale 0.2 ease;
-  margin-bottom: 1rem; 
+.btn{
+   margin-top: 1.5rem;  
 }
-
-
 .btn:hover{
   scale: 1.05;
+}
+.section{
+  margin-top: 10%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.title{
+  font-size: 2rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.description{
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.btns{
+  margin-top: 3rem;
+}
+.img_deg{
+  margin-top: -8rem;
+  margin-right: 7rem;
 }
 
 @media screen and (max-width: 700px){
     .btn{
-      width: 60%;
-      margin-left: 12rem;
+      margin-left: 11.5rem;
       position: absolute;
-      margin-top: 0.5rem;
+      margin-top: 1.5rem;
     }
     .navbar-nav{
       padding-left: 12rem;
     }
-}
-@media screen and (max-width: 1000px){
-  .btn{
-    width: 60%;
-    margin-left: 12rem;
-    position: absolute;
-    margin-top: 0.5rem;
-  }
-
+    .section{
+      flex-direction: column;
+    }
+    .img_deg{
+      margin-top: 2rem;
+    }
+    .btns{
+      margin-left: 2rem;
+    }
+    .navbar-toggler{
+      margin-left: 6rem;
+    }
+    .text{
+      text-align: center;
+    }
+    .logo{
+      margin-left: -1rem;
+    }
 }
