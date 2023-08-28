@@ -14,11 +14,6 @@ const Frontinfo = () => {
             </div>
           </div>
          <div>
-              <div class="container">
-                 <div class="circle-section">
-                    <div class="circle"></div>
-                 </div>
-               </div>
            <img className = "img_deg" src={male}/>
          </div>
      </div> 
