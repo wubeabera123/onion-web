@@ -19,23 +19,23 @@ const Casestudies = () => {
             </div>
             <div className="b">
                 <img src={imb} style={{width:"100%",borderRadius: "1rem"}}/>
-                <h5 className="blur-text" style={{fontWeight:"bold",marginTop: "2rem",color: "#201f2f"}}>Digital Marketing Agency Website</h5>
+                <h5 className="blur-text" style={{fontWeight:"bold",marginTop: "2rem",color: "#201f2f"}}>Online Banking Application</h5>
                <p className="blur-text" style={{color: "#201f2f",marginTop:"1.8rem"}}>This is a website for a client who want to achieve their goals and meet users <br /> needs while also increasing their reach. Across all platforms. <br /> This is a website rebrand.</p>
             </div>
          </div>
          <div className="rowimgb">
             <div className="c" style={{marginTop: "-14.7rem"}}>
                <img src={imc} style={{width: "100%",borderRadius: "1rem"}}/>
-               <h5 className="blur-text" style={{fontWeight:"bold",marginTop: "2rem",color: "#201f2f"}}>Digital Marketing Agency Website</h5>
+               <h5 className="blur-text" style={{fontWeight:"bold",marginTop: "2rem",color: "#201f2f"}}>E-Commerce Website Design</h5>
                <p className="blur-text" style={{color: "#201f2f",marginTop:"1.8rem"}}>This is a website for a client who want to achieve their goals and meet users <br /> needs while also increasing their reach. Across all platforms. <br />This is a website rebrand.</p>
             </div>
             <div className="d">
                 <img src={imd} style={{width: "100%",borderRadius: "1rem"}}/>
-                <h5 className="blur-text" style={{fontWeight:"bold",marginTop: "2rem",color: "#201f2f"}}>Digital Marketing Agency Website</h5>
+                <h5 className="blur-text" style={{fontWeight:"bold",marginTop: "2rem",color: "#201f2f"}}>Fitness Coaches Website</h5>
                 <p className="blur-text" style={{color: "#201f2f",marginTop:"1.8rem"}}>This is a website for a client who want to achieve their goals and meet users <br /> needs while also increasing their reach. Across all platforms. <br /> This is a website rebrand.</p>
             </div>
          </div>
-         <button style={{display: "flex",justifyContent: "center"}} href="#">Check All Case Studies</button>
+         <button className="longbutton" href="#">Check All Case Studies</button>
       </div>
      );
 }

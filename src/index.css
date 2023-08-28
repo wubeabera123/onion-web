@@ -132,6 +132,22 @@ header{
 .blur-text{
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
+.longbutton{
+  margin-top: 4rem;
+  border-color: black;
+  border-radius: 4px;
+  width: 13%;
+  justify-content: center;
+  align-items: center;
+  height: 7.5vh; /* Adjust as needed */
+  background-color: white;
+  letter-spacing: -1px;
+  font-weight: 500;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 @media screen and (max-width: 700px){
     .btn{
@@ -165,5 +181,8 @@ header{
     }
     .rowimgb{
       flex-direction: column;
+    }
+    .longbutton{
+      display: none;
     }
 }
