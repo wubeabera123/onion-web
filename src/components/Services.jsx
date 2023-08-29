@@ -1,9 +1,41 @@
 import imi from "../Images/imi.png";
 import imii from "../Images/imii.png";
 import imiii from "../Images/imiii.png";
+import React, { useEffect, useState } from 'react';
 const Services = () => {
+   const [diamonds, setDiamonds] = useState([]);
+
+  useEffect(() => {
+    const numDiamonds = 10; // Adjust the number of diamonds
+    const newDiamonds = [];
+
+    for (let i = 0; i <= numDiamonds; i++) {
+      const diamondStyle = {
+        top: Math.random() * 300 + 'vh',
+        left: Math.random() * 100 + 'vw',
+        right: Math.random() * 100 + 'vh',
+        //width: Math.random() * 20 + 5 + 'px', // Random width between 5 and 25 pixels
+       // height: Math.random() * 20 + 5 + 'px', // Random height between 5 and 25 pixels
+        backgroundColor: randomColor(), // Random background color
+      };
+      newDiamonds.push(<div key={i} className="diamond" style={diamondStyle}></div>);
+    }
+
+    setDiamonds(newDiamonds);
+  }, []);
+  const randomColor = () => {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  };
     return (  
        <div>
+           <i className="diamond-container">
+             {diamonds.map((diamond) => diamond)}
+           </i>
          <div style={{textAlign: "center",marginTop: "6rem"}}>
             <p style={{color: "#201f2f",fontWeight: "650",fontSize: "3.2rem",letterSpacing: "-1px"}}>Our Main Services</p>
             <p style={{color: "#201f2f",fontWeight: "600",fontSize: "1rem",marginTop: "-1rem"}}>Our structured and transparent work process ensures hight-quality.</p>

@@ -1,8 +1,41 @@
 import male from "../Images/male.jpg";
+import React, { useEffect, useState } from 'react';
 
 const Frontinfo = () => {
+
+  const [diamonds, setDiamonds] = useState([]);
+
+  useEffect(() => {
+    const numDiamonds = 6; // Adjust the number of diamonds
+    const newDiamonds = [];
+
+    for (let i = 0; i <= numDiamonds; i++) {
+      const diamondStyle = {
+        top: Math.random() * 70 + 'vh',
+        left: Math.random() * 100 + 'vw',
+        //width: Math.random() * 20 + 5 + 'px', // Random width between 5 and 25 pixels
+       // height: Math.random() * 20 + 5 + 'px', // Random height between 5 and 25 pixels
+        backgroundColor: randomColor(), // Random background color
+      };
+      newDiamonds.push(<div key={i} className="diamond" style={diamondStyle}></div>);
+    }
+
+    setDiamonds(newDiamonds);
+  }, []);
+  const randomColor = () => {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  };
     return (  
-      <div className="section">
+      <div>
+           <i className="diamond-container">
+             {diamonds.map((diamond) => diamond)}
+           </i>
+       <div className="section">
          <div>
            <div className="text">
             <p style={{color: "#201f2f",fontWeight: "650",fontSize: "3.5rem",lineHeight: "5rem",overflowWrap: "break-word"}}>We Build Web Projects <br/>that Drives Sales.</p>
@@ -17,6 +50,7 @@ const Frontinfo = () => {
            <img className = "img_deg" src={male}/>
          </div>
      </div> 
+   </div>
     );
 }
  
