@@ -8,8 +8,8 @@ const Casestudies = () => {
     return ( 
       <div className="casestudies">
          <div style={{textAlign: "center"}}>
-            <p style={{color: "#201f2f",fontWeight: "650",fontSize: "3.5rem",letterSpacing: "-1px"}}>Our Case Studies</p>
-            <p style={{color: "#201f2f",fontWeight: "600",fontSize: "1rem",letterSpacing: "-1px"}}>We provide the Perfect Solution to your business growth.</p>
+            <p style={{color: "#201f2f",fontWeight: "650",fontSize: "3.2rem",letterSpacing: "-1px"}}>Our Case Studies</p>
+            <p style={{color: "#201f2f",fontWeight: "600",fontSize: "01rem",marginTop: "-1rem"}}>We provide the Perfect Solution to your business growth.</p>
          </div>
          <div className="rowimga">
             <div className="a">
