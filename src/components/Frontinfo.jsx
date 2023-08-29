@@ -13,6 +13,7 @@ const Frontinfo = () => {
       const diamondStyle = {
         top: Math.random() * 70 + 'vh',
         left: Math.random() * 100 + 'vw',
+        right: Math.random() * 100 + 'vh',
         //width: Math.random() * 20 + 5 + 'px', // Random width between 5 and 25 pixels
        // height: Math.random() * 20 + 5 + 'px', // Random height between 5 and 25 pixels
         backgroundColor: randomColor(), // Random background color
