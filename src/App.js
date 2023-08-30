@@ -4,6 +4,7 @@ import Frontinfo from "./components/Frontinfo";
 import Upperfooter from "./components/Upperfooter";
 import Casestudies from "./components/Casestudies";
 import Services from "./components/Services";
+import Clients from "./components/Clients";
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
        <Upperfooter/>
        <Casestudies/>
        <Services/>
+       <Clients/>
     </div>
   );
 }
