@@ -2,7 +2,7 @@ import male from "../Images/male.jpg";
 import React, { useEffect, useState } from 'react';
 
 const Frontinfo = () => {
-
+  
   const [diamonds, setDiamonds] = useState([]);
 
   useEffect(() => {
@@ -47,8 +47,11 @@ const Frontinfo = () => {
             <button className="whit-link" style={{backgroundColor: "#f5f5f5",color: "#444444",width: "10rem",height: "2.7rem",fontWeight: "700",fontSize: "0.8rem",borderRadius: "3px"}}>Check Our Cases</button>
             </div>
           </div>
-         <div>
-           <img className = "img_deg" src={male}/>
+         <div className="circle">
+            <div className="smallcircle bg-dark">
+               <div className="human-shaped-image">
+               </div>
+            </div>
          </div>
      </div> 
    </div>
