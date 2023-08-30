@@ -5,6 +5,7 @@ import Upperfooter from "./components/Upperfooter";
 import Casestudies from "./components/Casestudies";
 import Services from "./components/Services";
 import Clients from "./components/Clients";
+import Address from "./components/Address";
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
        <Casestudies/>
        <Services/>
        <Clients/>
+       <Address/>
     </div>
   );
 }
