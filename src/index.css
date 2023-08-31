@@ -276,9 +276,10 @@ header{
 .up{
  color: rgb(110, 54, 140);
  margin-left: 95%;
- 
+ cursor: pointer;
  margin-top: -6rem;
 }
+
 
 @media screen and (max-width: 768px){
     .btn{

@@ -23,7 +23,7 @@ const ScrollToTopButton = () => {
   }, []);
     return ( 
         <div className={`scroll-to-top ${isVisible ? 'show' : ''}`} onClick={scrollToTop}>
-          <BsFillArrowUpSquareFill className='up' size={46}/>
+          <BsFillArrowUpSquareFill className='up' size={44}/>
        </div>
      );
 }
