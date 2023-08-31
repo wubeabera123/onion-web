@@ -6,6 +6,7 @@ import Casestudies from "./components/Casestudies";
 import Services from "./components/Services";
 import Clients from "./components/Clients";
 import Address from "./components/Address";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
        <Services/>
        <Clients/>
        <Address/>
+       <Footer/>
     </div>
   );
 }

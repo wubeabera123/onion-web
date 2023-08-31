@@ -31,9 +31,6 @@ const Address = () => {
   };
     return ( 
         <div className="address">
-             <i className="diamond-container">
-             {diamonds.map((diamond) => diamond)}
-             </i>
             <div className="add">
               <p style={{fontSize: "3rem",fontWeight: "650",color: "#f5f5f5",lineHeight: "3.2rem"}}>Sounds Good? <br /> Let's Grow Your Business. </p>
             </div>
