@@ -1,4 +1,6 @@
 import logo from "../Images/logo.png"
+import ScrollToTopButton from "./ScrollToTopButton";
+
 const Footer = () => {
     return (
         <div className="Foot">
@@ -45,7 +47,8 @@ const Footer = () => {
                 </div>
              </div>
             </div>
-            <p style={{color: "#d2c1c1",letterSpacing: "0px",fontSize: "14.8px",lineHeight: "25px",marginTop: "6.5rem",marginLeft: "5%"}}>OnionStudio. 2023. All Rights Are Reserved.</p>
+            <p style={{color: "#d2c1c1",letterSpacing: "0px",fontSize: "14.8px",lineHeight: "25px",marginTop: "7rem",marginLeft: "5%"}}>OnionStudio. 2023. All Rights Reserved.</p>
+            <ScrollToTopButton/>
         </div> 
       );
 }
