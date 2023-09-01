@@ -112,6 +112,9 @@ header{
   top: 0;
   left: 0;
 }
+.circle{
+  margin-left: 2.5%;
+}
 .casestudies{
   width: 100%;
   background-color: white;
@@ -156,8 +159,7 @@ header{
   margin-top: 3.5rem;
   margin-left: -3rem;
 }
-.rectanglea{
-  border: solid #6E368C 1px;
+.rectangle-mid{
   width: 24rem;
   height: 30rem;
   background-color: dark;
@@ -261,6 +263,7 @@ header{
   top: 50%;
   right: 22rem;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 .Foot{
   background-color: rgb(11, 37, 49);
@@ -323,11 +326,33 @@ header{
     .blue-link{
       margin-left: 5rem;
     }
-    .rectanglea{
-      margin-left: 2rem;
+    .rectangle{
+      width: 20rem;
+      height: 25rem;
+      margin: 0.5rem;
+      margin-left: -1%;
+      margin-top: 3rem;
+    }
+    .rectangle img{
+      width: 26rem;
+      height: 28rem;
+      margin-left: -2%;
+      margin-top: -0.01rem;
+    }
+    .rectangle-mid{
+      width: 20rem;
+      height: 25rem;
+      margin: 0.5rem;
+      margin-left: 15%;
+      margin-top: 3rem;
+    }
+    .rectangle-mid img{
+      width: 26rem;
+      height: 28rem;
+      margin-top: 0.01rem;
     }
     .serv{
-      margin-right: -2rem;
+      margin-right: 2rem;
     }
     .circle {
       margin-top: 4rem;
@@ -375,6 +400,9 @@ header{
     .logo{
       display: flex;
       align-items: center;
+    }
+    .onionlogo{
+      margin-top: -2rem;
     }
     .onion{
      display: none;

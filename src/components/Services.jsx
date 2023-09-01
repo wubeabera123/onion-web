@@ -63,7 +63,7 @@ const Services = () => {
                   <button className="blue-link" style={{backgroundColor: "#6E368C",color: "white",width: "10rem",height: "2.5rem",fontWeight: "400",fontSize: "1rem",borderStyle: "none",borderRadius: "3px",marginTop: "-1rem"}}>Learn More</button>
                 </div>
              </div> 
-             <div className="rectanglea bg-dark">
+             <div className="rectangle-mid bg-dark">
               <img src={imii} style={{paddingTop: "2rem",marginLeft: "-12rem",borderRadius: "5px"}}/>
              </div>
            </div>
