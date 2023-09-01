@@ -351,6 +351,12 @@ header{
       height: 28rem;
       margin-top: 0.01rem;
     }
+    .longbutton{
+      border-color: black;
+    }
+    .whit-link{
+      border-color: black;
+    }
     .serv{
       margin-right: 2rem;
     }
