@@ -4,7 +4,7 @@ const Upperfooter = () => {
     return (  
        <div className="upper">
           <div className="upp">
-             <p style={{fontSize: "3.5rem",fontWeight: "600",color: "#f5f5f5"}}>What people say about Onion</p>
+             <p className= "texttitle2"style={{fontSize: "3.5rem",fontWeight: "600",color: "#f5f5f5"}}>What people say about Onion</p>
              <p style={{fontSize: "1rem",fontWeight: "00",color: "#f5f5f5"}}>Learn more about what people are saying about us.</p>
           </div>
           <div className="cols">
@@ -60,9 +60,9 @@ const Upperfooter = () => {
                 </div>
              </div>
           </div>
-          <div className="d-flex" style={{alignItems: "center",justifyContent: "center",marginTop: "3rem"}}>
-          <p style={{color: "#f5f5f5",display: "flex",fontSize: "12px"}}>Testimonials based on:</p>
-          <h4 style={{color: "#f5f5f5",marginLeft: "2%",marginTop: "-0.6rem"}}>oferteo Google</h4>
+          <div className="footinfo d-flex" style={{alignItems: "center",justifyContent: "center",marginTop: "3rem"}}>
+             <p style={{color: "#f5f5f5",display: "flex",fontSize: "12px"}}>Testimonials based on:</p>
+             <h3 style={{color: "#f5f5f5",marginLeft: "2%",marginTop: "-0.8rem"}}>oferteo Google</h3>
           </div>
        </div>
     );
