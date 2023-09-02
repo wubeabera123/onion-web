@@ -10,7 +10,7 @@ const Navbar = () => {
               <img src={logo} className="onionlogo" style={{width:"1.8rem",height: "1.8rem",marginTop: "0.3rem",marginRight: "0.5rem"}}/>
               <p className="logotext" style={{fontWeight: "bold",fontSize: "1.5rem",color: "#201f2f"}}>OnionStudio</p> 
             </div>
-           <div className="ms-auto"> 
+           <div className=""> 
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
