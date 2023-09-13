@@ -410,20 +410,10 @@ margin-right: 2%;
     .colc{
       display: none;
     }
-    .circle {
-      margin-left: 2%;
-      margin-top: 4rem;
-      align-items: center;
-      width: 350px; /* Adjust the size of the circle */
-      height: 350px; /* Adjust the size of the circle */
-      border-radius: 50%; /* Set the border-radius to 50% to create a circle shape */
-      background-color: #6E368C; /* Adjust the background color of the circle */
-    }
-    .smallcircle{
-      width: 170px;
-      height: 170px;
-      border-radius: 50%;
-      margin: 5.5rem;
+    .frontimg{
+      max-width: 200%;
+      height: auto;
+      margin-left: -2rem;
     }
     .contactinfo{
       flex-direction: column;
@@ -503,6 +493,11 @@ margin-right: 2%;
   .img_deg{
     margin-top: 2rem;
   }
+  .frontimg{
+    max-width: 200%;
+    height: auto;
+    margin-left: -2rem;
+  }
   .btns{
     margin-left: 2rem;
   }
@@ -517,11 +512,15 @@ margin-right: 2%;
     line-height: 15px;
     letter-spacing: -1.9px;
     font-size: 1rem;
+    flex: 1 1 50%;
+    
   }
   .texttitle{
     line-height: 15px;
     letter-spacing: -3.1px;
     font-size: 1rem;
+    flex: 1 1 50%;
+    flex-wrap: wrap;
   }
   .texttitle2{
     letter-spacing: -3px;
