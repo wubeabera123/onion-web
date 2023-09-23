@@ -293,6 +293,7 @@ margin-right: 2%;
 }
 
 
+
 @media screen and (max-width: 767px){
     .btn{
       position: absolute;
@@ -340,12 +341,17 @@ margin-right: 2%;
       line-height: 10px;
       letter-spacing: -2px;
       font-size: 1rem;
+      white-space: wrap;
+      margin-left: -3rem;
+      
     }
     .texttitle{
       line-height: 15px;
       letter-spacing: -3.1px;
       font-size: 1rem;
       margin-top: 4rem;
+      margin-left: -3rem;
+      font-size: 2rem;
     }
     .texttitle2{
       letter-spacing: -3px;
@@ -411,9 +417,11 @@ margin-right: 2%;
       display: none;
     }
     .frontimg{
-      max-width: 200%;
       height: auto;
-      margin-left: -2rem;
+      margin-top: 4rem;
+      max-width: 200%;
+      float: right;
+      margin-right: -7rem;
     }
     .contactinfo{
       flex-direction: column;
@@ -497,6 +505,7 @@ margin-right: 2%;
     max-width: 200%;
     height: auto;
     margin-left: -2rem;
+    margin-top: 4rem;
   }
   .btns{
     margin-left: 2rem;

@@ -1,4 +1,4 @@
-import male from "../Images/male.jpg";
+import male from "../Images/male.png";
 import React, { useEffect, useState } from 'react';
 
 const Frontinfo = () => {
@@ -36,7 +36,7 @@ const Frontinfo = () => {
            <i className="diamond-container">
              {diamonds.map((diamond) => diamond)}
            </i>
-       <div className="row container-fluid mt-5 ms-5 flex-column flex-md-row flex-sm-row">
+       <div className="row container mt-5 ms-5 flex-column flex-md-row flex-sm-row">
          <div className="col-6 mt-5 ">
            <div>
             <p className="texttitle" style={{color: "#201f2f",fontWeight: "650",fontSize: "3.5rem",lineHeight: "5rem",overflowWrap: "break-word"}}>We Build Web Projects <br />that Drives Sales.</p>
@@ -47,8 +47,8 @@ const Frontinfo = () => {
               <button className="whit-link" style={{backgroundColor: "#f5f5f5",color: "#444444",width: "10rem",height: "2.7rem",fontWeight: "700",fontSize: "0.8rem",borderRadius: "3px"}}>Check Our Cases</button>
             </div>
           </div>
-         <div className="col-6" style={{marginTop: "-2rem"}}>
-            <img src={male} className="frontimg" style={{width: '33rem',objectFit: "cover"}}/>
+         <div className="col-6 " style={{marginTop: "-2rem"}}>
+            <img src={male} className="frontimg" style={{objectFit: "cover",marginLeft: "6rem"}}/>
          </div>
      </div> 
    </div>
