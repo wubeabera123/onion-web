@@ -269,7 +269,7 @@ margin-right: 2%;
 .input-icon {
   position: absolute;
   top: 50%;
-  right: 25.6rem;
+  right: 22rem;
   transform: translateY(-50%);
   cursor: pointer;
 }
